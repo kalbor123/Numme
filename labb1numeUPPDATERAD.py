@@ -30,7 +30,7 @@ plt.grid(True)
 plt.title("Uppgift 1a: Rötter av f(x) (L=1)")
 plt.legend()
 plt.show() 
-# Observation: Rötter finns vid x=0, ca x=0.45, ca x=0.82 och x=1.
+# Observation: Rötter finns (förutom vid de givna x=0 och x= 1) vid ca x=0.45 och ca x=0.82.
 
 # --- c) Fixpunktsiteration ---
 print("\n--- Fixpunktsiteration ---")
@@ -97,3 +97,4 @@ plt.legend()
 plt.grid(True)
 
 plt.show()
+
