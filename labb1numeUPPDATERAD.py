@@ -56,8 +56,9 @@ x_nu = 0.3
 fel = 1.0
 iter_newt = 0
 fel_lista_newt = []
+max_iter = 300
 
-while fel > tau and iter_newt < 100:
+while fel > tau and iter_newt < max_iter:
     x_nasta = x_nu - f(x_nu)/df(x_nu)
     fel = abs(x_nasta - x_nu)
     fel_lista_newt.append(fel)
@@ -94,4 +95,5 @@ plt.ylabel('|x_{n+1} - x_n|')
 plt.title('Uppgift 1e: Jämförelse av konvergenshastighet')
 plt.legend()
 plt.grid(True)
+
 plt.show()
