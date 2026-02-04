@@ -119,13 +119,6 @@ def uppgift_3g():
     print("Villkor 2 (E > 350):", E > 350)
 
 
-
-
-
-
-
-
-
 if __name__ == "__main__":
     uppgift_3a()
     uppgift_3b()
